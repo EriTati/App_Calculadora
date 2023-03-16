@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8B0DF"
+    android:orientation="vertical"
+    android:textAlignment="inherit"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagen_aleatoria"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/imagenes_gif_para_celular" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="625dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:text="Resultado de operación" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Escribe un número"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Escribe un número"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_suma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Suma" />
+
+    <Button
+        android:id="@+id/button_resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Resta" />
+
+    <Button
+        android:id="@+id/button_division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="División" />
+
+    <Button
+        android:id="@+id/button_multiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Multiplicación" />
+
+</LinearLayout>
